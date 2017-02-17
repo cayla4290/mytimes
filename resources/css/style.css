@@ -41,3 +41,35 @@ nav span {
   display: inline-block;
   padding: 20px 10px
 }
+
+body {
+  top: 80px;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  overflow: scroll;
+  position: relative;
+}
+
+.content div {
+  border: 1px solid black;
+  display: flex;
+  width: 1000px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
